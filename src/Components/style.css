@@ -1,0 +1,262 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 70%;
+}
+
+.right-content {
+  width: 30%;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pokemon-id {
+  color: #555;
+}
+
+.pokemon-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.read-more-button, .delete-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.pokeinfo-container {
+  text-align: center;
+}
+
+.pokemon-name {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.abilities {
+  margin: 20px 0;
+}
+
+.ability {
+  margin: 5px;
+}
+
+.ability-name {
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.base-stats {
+  margin: 20px 0;
+}
+
+.stat {
+  font-size: 1.2em;
+}
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fsfs,
+.dfsf {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.fsfs:hover,
+.dfsf:hover {
+  background-color: #0056b3;
+}
+
+.dfsf {
+  background-color: #28a745;
+}
+
+.dfsf:hover {
+  background-color: #1e7e34;
+}
+
+.dfgdgd {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.dfgdgd:hover {
+  background-color: #0056b3;
+}
+
+.fdfd {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.fdfd:hover {
+  background-color: #b6000b;
+}
+
+
+.filter-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-field::placeholder {
+  color: #999;
+}
+
+.filter-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.popup {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button {
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #999;
+}
+
+button:nth-child(2) {
+  background-color: #007bff;
+}
+
+button:nth-child(2):hover {
+  background-color: #0056b3;
+}
+
+button:nth-child(3) {
+  background-color: #4caf50;
+}
+
+button:nth-child(3):hover {
+  background-color: #45a049;
+}
